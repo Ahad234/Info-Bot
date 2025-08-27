@@ -25,14 +25,13 @@ HELP_TEXT = """🤔 How to use me?
 ABOUT_TEXT = """--**About Me**--
 
 - **Bot :** `Info Bot`
-- **Creator :** [Vivek](https://telegram.me/Vivek_KERALA)
+- **Creator :** [- 𝐼 ꪜ ꪖ ꪀ](https://telegram.me/x9Ahad)
 - **Credits :** `Everyone in this journey`
-- **Source :** [Click here](https://github.com/vivek-tp/Info-Bot)
 - **Language :** [Python3](https://python.org)
 - **Library :** [Pyrogram v1.2.0](https://pyrogram.org)
 - **Server :** [Heroku](https://heroku.com)"""
 
-BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton(text="SOURCE", url=f"https://github.com/vivek-tp/Info-Bot")]])
+BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton(text="SOURCE", url=f"https://t.me/+15305000787")]])
 
 
 @Bot.on_message(filters.private & filters.command("start"))
@@ -89,5 +88,5 @@ async def id(bot, update):
     )
 
 
-print("Bot Started!!! Now Join on @Vkprojects")
+print("Bot Started!!! Now Join on @IvanxNisha")
 Bot.run()
